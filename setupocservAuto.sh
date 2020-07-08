@@ -1,11 +1,6 @@
 #!/bin/bash
 
 clear
-echo "   ___         _    ___  ___ ____   "
-echo "  / __|___ _ _| |_ / _ \/ __|__  |  "
-echo " | (__/ -_) ' \  _| (_) \__ \ / /   "
-echo "  \___\___|_||_\__|\___/|___//_/    "
-echo " OpenConnect VPN Server OneClick Install BY Nirob3x"
 
 echo "Point a Domain or Sub-Domain With Your VPS IP"
  echo "Make Sure Your VPS is in Centos7 64x "
@@ -41,20 +36,6 @@ sudo certbot certonly --standalone --preferred-challenges http --agree-tos --ema
 
  cd ..
  sudo systemctl restart ocserv
- 
- 
-
-
-clear
-echo "   ___         _    ___  ___ ____   "
-echo "  / __|___ _ _| |_ / _ \/ __|__  |  "
-echo " | (__/ -_) ' \  _| (_) \__ \ / /   "
-echo "  \___\___|_||_\__|\___/|___//_/    "
-echo " OpenConnect VPN Server OneClick Install BY Nirob3x"
- echo " "
-
-echo "Setup Finished"
-echo "For Paid Task and VPN Panel Knock me on WhatsApp +17312032777"
 
 
 
