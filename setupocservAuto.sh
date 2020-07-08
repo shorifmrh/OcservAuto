@@ -2,7 +2,7 @@
 
 clear
 echo "Point a Domain or Sub-Domain With Your VPS IP"
- echo "Make Sure Your VPS is in Centos7 64x "
+echo "Make Sure Your VPS is in Centos7 64x "
 echo ""
 echo "Inter Your Domain / SubDomain that pointed to VPS IP"
 read -p "Domain/Subdomain: " DomainTool
@@ -32,9 +32,8 @@ sudo systemctl reload firewalld
 sudo dnf install certbot -y
 sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email $EmailTool -d $DomainTool
 
-
- cd ..
- sudo systemctl restart ocserv
+cd ..
+sudo systemctl restart ocserv
 
 
 
