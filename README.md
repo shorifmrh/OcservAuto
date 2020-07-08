@@ -160,9 +160,9 @@ net.ipv4.ip_forward = 1
 
 # Setting up RHEL7 firewall
 # Setup firewalld - don
-[root@ocserv ~]# cat > /etc/firewalld/services/ocserv.xml <<EOF
+[root@ocserv ~]# cat > /etc/firewalld/services/ocserv.xml < < EOF
 
-= "<?xml version="1.0" encoding="utf-8" ?>"
+= "< ?xml version="1.0" encoding="utf-8" ? >"
 
 = "< service >"
 
