@@ -164,17 +164,17 @@ net.ipv4.ip_forward = 1
 
 = <?xml version="1.0" encoding="utf-8" ?>
 
-= <service>
+= < service >
 
-= <short>ocserver</short>
+= < short>ocserver</short >
 
-= <description>Cisco AnyConnect</description>
+= < description>Cisco AnyConnect</description >
 
-= <port protocol="tcp" port='443' />
+= < port protocol="tcp" port='443' / >
 
-= <port protocol="udp" port='443' />
+= < port protocol="udp" port='443' / >
 
-= </service>
+= < /service >
 
 EOF
 
