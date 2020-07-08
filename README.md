@@ -159,7 +159,7 @@ net.ipv4.ip_forward = 1
 [root@ocserv ~]# iptables-save > /etc/sysconfig/iptables
 
 # Setting up RHEL7 firewall
-# Setup firewalld - don
+# Setup firewalld - don't add any space "</>" 
 [root@ocserv ~]# cat > /etc/firewalld/services/ocserv.xml < < EOF
 
 = "< ?xml version="1.0" encoding="utf-8" ? >"
